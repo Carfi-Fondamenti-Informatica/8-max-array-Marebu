@@ -7,12 +7,13 @@ using namespace std;
 int main(){
   int dim;
   cin >> dim;
-  float numeri [dim];
-  for (int i=0 ; i<dim ; i++){
+  float numeri[dim];
+  for (int i=0 ; i < dim ; i++ ){
     cin >> numeri[i];
   }
-  NumeroMassimo(numeri, dim);
+  numeroMassimo(numeri, dim);
   
-  cout << NumeroMassimo(numeri, dim) << endl;
+  cout << numeroMassimo(numeri, dim) << endl;
+  
   return 0;
 }
