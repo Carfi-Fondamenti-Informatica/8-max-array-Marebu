@@ -7,7 +7,5 @@ float numeroMassimo( const float numeri[], int dim){
       massimo = numeri[i];
     }
   }
-  
   return massimo;
-
 }
